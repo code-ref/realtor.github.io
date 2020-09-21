@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+           }
+      
+        .container{
+            width: 1170px;
+            margin: auto;
+        }
+        
+         .cols{
+            display: flex;
+            margin: auto;
+      
+    
+        }
+                /* НАЧАЛО HEADER */
+        
+
+        header{
+            background: rgb(265,265,265);
+            height: 100px;
+            color: #000;
+            padding-bottom: 30px;
+         
+        }
+
+        header a{
+            color: #000;
+        }
+    
+
+        header .container{
+            position: relative;
+        }
+        
+        .logo img{
+            margin-top:25px;
+            width: 207px;
+            height: 41px;
+        }
+        
+        
+        .menu-top{
+            position: absolute;
+            top: 30px;
+            right: 0px;
+ 
+        }
+
+        .menu-top ul{
+            display: flex;
+            list-style-type: none;
+        }
+        /* расстояние до контейнера 20px  */
+        .menu-top a{
+            text-decoration: none;
+            display: block;
+            padding: 5px 20px;
+            text-transform: uppercase;
+            border-bottom: 4px solid transparent;
+            color: #212121;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 24px;
+            font-family: "Montserrat", sans-serif;
+            letter-spacing: 0.06em;
+        }
+
+        .menu-top a:hover{
+            border-bottom: 2px solid orange;
+        }
+               /* КОНЕЦ HEADER */
+
+
+
+                                     /* НАЧАЛО SECTION 2 (ABOUT) */
+
+        .about{
+            background: #090909;
+            height: 600px;
+        }
+
+        .about a{
+            color: white;
+        }
+
+        
+        .about {
+            overflow: hidden;
+        }
+
+      
+        h1{
+            margin-top: 230px;
+            font-size: 48px;
+            color: white;
+            text-align: center;
+        }
+
+        .btn-about{
+        
+            display: flex;
+            margin-top: 45px;
+            align-items: center;
+            justify-content: center;
+      
+
+        }
+        .orange{
+            width: 125px;
+            height: 50px;
+            padding: 9px 16px;
+            font-size: 14px;
+            line-height: 28px;
+            white-space: nowrap;
+            text-transform: uppercase;
+            color: #fff;
+            border-width: 2px;
+
+            /* background: #ffa200; */
+            background: linear-gradient(45deg, #ff7e00 0%, #e68619 100%);
+            letter-spacing: 0.06em;
+            transition: .3s;
+            border-radius: 3px;
+            text-align: center;
+            vertical-align: middle;
+            font-family: "Lato", Helvetica, Arial, sans-serif;
+            margin: auto;
+            font-weight: 700;
+        }
+
+        .orange:hover{
+            width: 125px;
+            height: 50px;
+            padding: 9px 16px;
+            font-size: 14px;
+            line-height: 28px;
+            white-space: nowrap;
+            text-transform: uppercase;
+            color: #fff;
+            border-width: 2px;
+
+            background: #9b3303fa;
+            letter-spacing: 0.06em;
+            transition: .3s;
+            border-radius: 3px;
+            text-align: center;
+            vertical-align: middle;
+            font-family: "Lato", Helvetica, Arial, sans-serif;
+            margin: auto;
+            font-weight: 700;
+        }
+      
+        .transparent{
+            width: 130px;
+            height: 50px;
+            padding: 9px 16px;
+            font-size: 14px;
+            line-height: 28px;
+            white-space: nowrap;
+            text-transform: uppercase;
+            color: #fff;
+            border-width: 2px;
+          
+            letter-spacing: 0.06em;
+            transition: .3s;
+            border-radius: 3px;
+            border: 2px solid white;
+            text-align: center;
+            font-family: "Lato", Helvetica, Arial, sans-serif;
+             margin: auto;
+             font-weight: 700;
+        }
+        .transparent:hover{
+            width: 130px;
+            height: 50px;
+            padding: 9px 16px;
+            font-size: 14px;
+            line-height: 28px;
+            white-space: nowrap;
+            text-transform: uppercase;
+            color: #000;
+            border-width: 2px;
+            
+            background: #fff;
+            letter-spacing: 0.06em;
+            transition: .3s;
+            border-radius: 3px;
+            border: 2px solid white;
+            text-align: center;
+            font-family: "Lato", Helvetica, Arial, sans-serif;
+             margin: auto;
+             font-weight: 700;
+        }
+
+        .about #left{
+            margin-right: 5px;
+        }
+
+        .about #right {
+            margin-left: 10px;
+        }
+        
+        .cntr-circle{
+            display: flex;
+            justify-content: center;
+            width: 132px;
+            margin-left: 520px;
+            margin-bottom: 20px;
+
+        }
+
+        
+        .circle{
+            width: 12px;
+            height: 12px;
+            border: 2px solid white;
+            margin: auto;
+            display: inline-block;
+            border-radius: 50px;
+            position: relative;
+            top: 150px;
+
+
+
+        }
+        
+       
+        a{
+            text-decoration: none;
+    
+        }
+     /* КОНЕЦ SECTION 2 (ABOUT) */
+
+                            
+                            
+                            /* НАЧАЛО SECTION 3 (HOME FLUID) */
+
+        .fluid .cols{
+            display: flex;
+            padding: 35px 0px;
+            width: 100%;
+    
+        }
+
+
+       .fluid .col{
+            /* width: 25%;
+            margin: auto;
+            display: flex;
+            padding: 35px 0px; */
+            padding: 0px 15px;
+            position: relative;
+            width: 100%;
+
+       
+
+        }
+        .fluid .col p{
+            text-align: center;
+            color: white;
+        }
+
+            /* КОНЕЦ SECTION 3 (HOME FLUID) */
+
+
+
+                        /* НАЧАЛО Recent Properties */
+        .properties {
+            padding: 66px 0px 110px;
+        }
+        h2{
+            font-weight: 700 !important;
+            font-size: 42px;
+
+
+        }
+
+        .properties .cols {
+            display: flex;
+            justify-content: space-between;
+            /* margin-top: 50px; */
+            
+        }
+
+        .properties h2{
+            margin: 60px;
+            text-align: center;
+        
+        }
+
+        .properties .col{
+            width: 33%;
+        }
+
+        
+        .properties .orange{
+            display: block;
+            margin-top: 40px;
+            width: 201.35px;
+            /* margin-bottom: -60px; */
+            padding: 9px 16px;
+            border: 2px
+
+
+        }
+
+        .properties .col p:last-of-type{
+           display: block; 
+          width: 94%;
+          text-align: justify;
+          color: #434345;
+          font-weight: 400;
+          font-size: 16px;
+            line-height: 1.5;
+            font-family: "Lato", Helvetica, Arial, sans-serif;
+   
+          
+        }
+
+     
+        /* КОНЕЦ properties */
+
+                    /* НАЧАЛО SECTION 5 (TOOLS) */
+
+        .tools .cols{
+            display: flex;
+        }
+
+        .tools .col{
+            width: 33%;
+            margin: auto;
+            text-align: justify;
+            padding: 0px 15px;
+      
+        }
+
+        .tools .container{
+            padding: 110px 15px;
+        }
+
+        .tools hr{
+            display: block;
+            width: 40px;
+            height: 2px;
+            margin: auto;
+            background-color:  #ff7e00;
+            margin: 27px auto 54px;
+            
+            
+        }
+
+        .tools h2,h5{
+            text-align: center;
+            }
+
+        
+            .tools h5{
+                font-weight: 700 !important;
+                font-size: 22px;
+                text-transform: uppercase !important;
+                line-height: 1.22727;
+                margin-top: 29px;
+                margin-bottom: 19px;
+            }
+
+            .tools p{
+                text-align: center;
+                font-weight: 300;
+                color: #c4c4c4;
+                margin-top: 18px;
+                font-family: "Lato", Helvetica, Arial, sans-serif;
+                font-size: 16px;
+                line-height: 1.5rem;
+ 
+            }
+
+            .tools{
+                background: maroon;
+                color: #fff;
+            }
+            .fl-icons i{
+                
+                font-size: 2rem;
+                color:  #fff;
+        
+            }
+            .fl-icons{
+                
+                width: 70px;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                background: linear-gradient(45deg, #ff7e00 0%, #f5bf2f 100%);
+                border-radius: 50%;
+                margin: auto;
+                
+            }
+        
+
+        /* КОНЕЦ SECTION 5 (TOOLS) */
+
+                                   
+                                    /* НАЧАЛО footer */
+        footer{
+            background: #000;
+            color: white;
+        }
+
+        footer .foot{
+            width: 25%;
+            margin: 10px;
+  
+        }
+
+        .cols>foot{
+            display: block;
+        }
+
+        footer.cols{
+            justify-content: space-between;
+        
+        }
+
+        footer p{
+            margin-top: 13px;
+        }
+        footer h4{
+            margin-top: 35px;
+        }
+        footer .date{
+            margin-bottom: -10px;
+        }
+        footer a{
+            color: white;
+    
+        }
+        footer .col3 a:hover{
+            text-decoration: underline;
+    
+        }
+
+        footer .col4 a:hover{
+            color: orange;
+    
+        }
+        footer .col1 .icons i{
+            padding-right: 15px;
+            margin-top: 40px;
+
+        }
+
+        footer .col3 .icons i{
+            padding-right: 15px;
+
+        }
+
+        .copyright {
+            overflow: hidden;
+            text-align: center;
+            margin-top: 20px;
+            color: #909090;
+            padding-bottom: 30px;
+        }
+  
+
+        /* КОНЕЦ footer */
+    </style>
+</head>
+<body>
+                            <!-- SECTION 1 (HEADER)  -->
+    <header>
+        <div class="container">
+        
+            <!-- a.logo>img[src=img/logo.png] -->
+            <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+
+        <!-- nav.menu-top>ul>li*7>a[href=#]>Lorem1 -->
+        <nav class="menu-top">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CATALOG</a></li>
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACTS</a></li>
+                <li><a href="#">BLOCKS</a></li>
+            </ul>
+        </nav>
+            
+        </div>
+    </header>
+                            <!-- SECTION 2 (ABOUT) -->
+
+    <section class="about">
+        <h1>Professional realtor works for you</h1>
+        <div class="container">
+
+             <!-- h1>lorem5 -->
+        
+      
+        <!-- ПОДУМАТЬ, КАК ОФОРМИТЬ КНОПКИ -->
+        <!-- a[href='#'].orange -->
+
+        <!-- div.btn-about -->
+        <div class="btn-about">
+            <a href="#" class="orange" id="left">VIEW MORE</a>
+
+          <!-- a[href='#'].transparent  -->
+            <a href="#" class="transparent" id="right">CONTACT US</a>
+   
+        </div>
+        
+            <!-- .cntr-cicle -->
+            <div class="cntr-circle" id="upper">
+                            <!-- a[href='#']*3.circle -->
+                    <a href="#" class="circle"></a>
+                    <a href="#" class="circle"></a>
+                    <a href="#" class="circle"></a>
+            </div>
+          
+        </div>
+    </section>
+                            <!-- SECTION 3 (HOME fluid) -->
+
+
+    <section class="fluid">
+       
+                    <!-- .cols>.col.col$*4>p.name+p.stats -->
+            <div class="cols">
+                <div class="col col1">
+             
+                   <figure class="fig1">
+                        <!-- a[href="#"]>img[width="442" height="280" src=http://placehold.it/442x280] -->
+                        <a href="#"><img src="http://placehold.it/442x280" alt="" width="442" height="280"></a>
+                                 <!-- figcaption>div>h4+p+a[href=#]-->
+                                 <!-- <figcaption>
+                                     <div>
+                                         <h4></h4>
+                                     </div>
+                                     <p></p>
+                                     <a href="#"></a>
+                                 </figcaption> -->
+
+                            
+                      
+                   </figure>
+                  
+                </div>
+
+                <div class="col col2">
+                    
+                    <figure class="fig2">
+                        <a href="#"><img src="http://placehold.it/442x280" alt="" width="442" height="280"></a>
+                        <!-- <figcaption>
+                            <div>
+                                <h4></h4>
+                            </div>
+                            <p></p>
+                            <a href="#"></a>
+                        </figcaption> -->
+                    </figure>
+                   
+                </div>
+
+                <div class="col col3">
+                  
+                    <figure class="fig3">
+                        <a href="#"><img src="http://placehold.it/442x280" alt="" width="442" height="280"></a>
+                        <!-- <figcaption>
+                            <div>
+                                <h4></h4>
+                            </div>
+                            <p></p>
+                            <a href="#"></a>
+                        </figcaption> -->
+                    </figure>
+                    
+                </div>
+
+                <div class="col col4">
+                   
+                    <figure class="fig4">
+                        <a href="#"><img src="http://placehold.it/442x280" alt="" width="442" height="280"></a>
+                        <!-- <figcaption>
+                            <div>
+                                <h4></h4>
+                            </div>
+                            <p></p>
+                            <a href="#"></a>
+                        </figcaption> -->
+                    </figure>
+                   
+                </div>
+     
+            </div>
+   </section>
+
+        
+ 
+                                     <!-- SECTION 4 (RECENT PROPERTIES) -->
+    <section class="properties">
+        <div class="container">
+            <h2>Recent Properties</h2>
+            <!-- .cols*2>.col.col$*3>img[src=http://placehold.it/370x250]+h4+p.price+p.spec+p-->
+            <div class="cols">
+                <div class="col col1">
+                    <img src="http://placehold.it/370x250" alt="">
+                    <h4>AVA Nob Hill</h4>
+                    <p class="price">$1199.00/mon</p>
+                    <p class="spec">1200 sq ft 4 bedrooms 2 bathrooms</p>
+                    <p>AVA Nob Hill includes studios and 1 and 2 bedroom apartments that feature an urban-inspired design that extends beyond your walls and throughout the entire community.</p>
+                </div>
+                <div class="col col2">
+                    <img src="http://placehold.it/370x250" alt="">
+                    <h4>Ashton San Francisco</h4>
+                    <p class="price">$1595.00/mon</p>
+                    <p class="spec">1200 sq ft 2 bedrooms 2 bathrooms</p>
+                    <p>Ashton San Francisco offers luxury apartments, eco-friendly features, and remarkable on-site resident amenities. Enjoy premier services and access to our state-of-the-art fitness center, clubhouse, business center, and outdoor fire pit lounge.</p>
+                </div>
+                <div class="col col3">
+                    <img src="http://placehold.it/370x250" alt="">
+                    <h4>The Presidio Residences</h4>
+                    <p class="price">$2699.00/mon</p>
+                    <p class="spec">2200 sq ft 4 bedrooms 3 bathrooms</p>
+                    <p>The Presidio Residences offer a unique opportunity to live in a national park setting and enjoy quiet neighborhoods, convenient location, beautiful open spaces, and outstanding recreational amenities.</p>
+                </div>
+            </div>
+            <div class="cols">
+                <div class="col col1">
+                    <img src="http://placehold.it/370x250" alt="">
+                    <h4>Alchemy by Alta</h4>
+                    <p class="price">$1199.00/mon</p>
+                    <p class="spec">1200 sq ft 4 bedrooms 2 bathrooms</p>
+                    <p>One month FREE on select apartment homes for a limited time.</p>
+                </div>
+                <div class="col col2">
+                    <img src="http://placehold.it/370x250" alt="">
+                    <h4>Avalon at Mission Bay</h4>
+                    <p class="price">$1595.00/mon</p>
+                    <p class="spec">1200 sq ft 2 bedrooms 2 bathrooms</p>
+                    <p>Avalon at Mission Bay located in San Francisco near the San Francisco Caltrain Station offers thoughtfully designed studio, 1, 2 and 3 bedroom apartments and town homes.</p>
+                </div>
+                <div class="col col3">
+                    <img src="http://placehold.it/370x250" alt="">
+                    <h4>Bayside Village Apartments</h4>
+                    <p class="price">$2699.00/mon</p>
+                    <p class="spec">2200 sq ft 4 bedrooms 3 bathrooms</p>
+                    <p>Pick your pleasure from a vantage point that puts all the best of the city's lively South Beach neighborhood within easy reach.</p>
+                </div>
+            </div>
+
+            <a href="#" class="orange">VIEW ALL PROPERTIES</a>
+        </div>
+        
+    </section>
+                                 <!-- SECTION 5 (TOOLS) -->
+    <section class="tools">
+        <div class="container">
+  
+            <!-- h2+hr+.cols>.col.col$*3 -->
+            <h2>Real Estate Tools and Resources</h2>
+            <hr>
+
+            <div class="cols">
+
+                <div class="col col1">
+                    <div class="fl-icons"><i class="far fa-comment"></i></div>
+                <h5>more listings</h5>
+                <p>Check up to 40% more houses for sale. See pictures of your new life at a new place. See maps, markets, etc.</p>
+                </div>
+
+                <div class="col col2">
+                    <div class="fl-icons"><i class="fas fa-star"></i></div>
+                <h5>top-rated agents</h5>
+                <p>All our real estate agents are professionals in your neighborhood, which are ready to help you find your new home.</p>
+                </div>
+
+                <div class="col col3">
+                    <div class="fl-icons"><i class="fas fa-building"></i></div>
+                <h5>home estimates</h5>
+                <p>Wanna know how much your new home will cost? See estimates for any neighborhood and check prices for similar homes.</p>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+
+                                 <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <!-- .cols>.foot.col$*4 -->
+             <div class="cols">
+                 <div class="foot col1">
+                       <!-- a.logo>img[src=img/logo.png] -->
+            <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+            <!-- a[href=#]*4 -->
+                <div class="icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+
+                 <div class="foot col2">
+                    <h4>NEWSLETTER</h4>
+                    <p>Keep up with the latest company news and events. Enter your e-mail and subscribe to our newsletter.</p>
+                    <input type="text">
+                 </div>
+
+
+                 <div class="foot col3">
+                    <h4>USEFUL LINKS</h4>
+                        <div class="icons">
+                            <p><i class="far fa-star"></i><a href="#">Properties</a></p>
+                            <p><i class="far fa-star"></i><a href="#">Amenities</a></p>
+                            <p><i class="far fa-star"></i><a href="#">Rentals</a></p>
+                            <p><i class="far fa-star"></i><a href="#">Mortgages</a></p>
+                            <p><i class="far fa-star"></i><a href="#">Agents</a></p>
+                        </div>
+                 </div>
+
+                 <div class="foot col4">
+                    <h4>LATEST NEWS</h4>
+                    <!-- div*3>p.date+p.news -->
+                    <div>
+                        <p class="date">05/14/2018</p>
+                        <p class="news"><a href="#">Top 10 Apartments in LA</a></p>
+                    </div>
+                    <div>
+                        <p class="date">05/14/2018</p>
+                        <p class="news"><a href="#">Choosing a Rental Property</a></p>
+                    </div>
+                    <div>
+                        <p class="date">05/14/2018</p>
+                        <p class="news"><a href="#">Features of Mortgage Loans</a></p>
+                    </div>
+                 </div>
+             </div>
+            </div>     
+            <div class="copyright">
+                Immovables &copy; 2020 . Privacy Policy
+            </div>
+    </footer>
+</body>
+</html>
